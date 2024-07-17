@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <h1 class="hdn">Result Summary Component</h1>
+  <div class="container">
+    <div class="column-1">
+      <div class="result">
+        <h2 class="title-1">Your Result</h2>
+        <div class="score">
+          <p class="total">76</p>
+          <p class="out-of">of 100</p>
+        </div>
+        <div class="score-desc">
+          <h3>Great</h3>
+          <p>You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+    </div>
+    <div class="column-2">
+      <div class="summary">
+        <h2 class="title-2">Summary</h2>
+        <div class="summary-list">
+          <div class="box" id="red">
+            <div class="color1">
+              <img src="./assets/images/icon-reaction.svg" alt="Reaction icon">
+              <span>Reaction</span>
+            </div>
+            <p>80<span> / 100</span></p>
+          </div>
+          <div class="box" id="yellow">
+            <div class="color2">
+              <img src="./assets/images/icon-memory.svg" alt="Memory icon">
+              <span>Memory</span>
+            </div>
+            <p>92 <span>/ 100</span></p>
+          </div>
+          <div class="box" id="green">
+            <div class="color3">
+              <img src="./assets/images/icon-verbal.svg" alt="Verbal icon">
+              <span>Verbal</span>
+            </div>
+            <p>61<span> / 100</span></p>
+          </div>
+          <div class="box" id="blue">
+            <div class="color4">
+              <img src="./assets/images/icon-visual.svg" alt="Visual icon">
+              <span>Visual</span>
+            </div>
+            <p>72<span> / 100</span></p>
+          </div>
+        </div>
+        <div class="con">
+          <button class="btn" type="button">Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
